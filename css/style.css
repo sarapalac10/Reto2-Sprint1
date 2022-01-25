@@ -11,6 +11,16 @@ html {
     box-sizing: border-box;
 }
 
+#valor-actual {
+    font-size: 30px;
+    text-align: right;
+}
+
+#valor-anterior {
+    font-size: 32px;
+    text-align: right;
+}
+
 /*Tema 1*/
 
 .header{
@@ -24,7 +34,7 @@ html {
 
 body{
     font-family: var(--fuentePrincipal);
-    background-color: hsl(222, 26%, 31%);
+    background-color: #3a4764;
 }
 
 .screen{
@@ -32,6 +42,7 @@ body{
     border-radius: 10px;
     padding: 15px;
     color: #ffffff;
+    height: 100%;
 }
 
 .content-body {
@@ -41,6 +52,17 @@ body{
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-width: 375px) {
+    .content-body {
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .content-calculator {
@@ -53,15 +75,12 @@ body{
     gap: 20px;
 }
 
-.screen input{
-    background-color: inherit;
-    color: #fff;
-    border: none;
-    outline: inherit;
-    height: 100%;
+.operador{
     width: 100%;
+    border-radius: 10px;
+    outline: none;
     font-size: 32px;
-    text-align: right;
+    color:  hsl(222, 26%, 31%);
 }
 
 .btn-calc input{
@@ -102,3 +121,32 @@ body{
     color: #fff;
     text-decoration: none;
 }
+
+.redButton.horizTranslate2
+{ -webkit-transition: -webkit-transform 0.1s linear; -webkit-transform: translateX(20px);}
+
+.redButton.horizTranslate3 
+{ -webkit-transition: -webkit-transform 0.1s linear; -webkit-transform: translateX(40px);}
+
+
+.redButton.horizTranslate1 
+{ -webkit-transition: -webkit-transform 0.1s linear; -webkit-transform: translateX(0px);}
+
+
+#outerContainer
+{position:relative; width:111px; height:98px; background-color:#3a4764;}
+
+#buttonContainer
+{background-color: #222D41; width:71px; height:28px; position:relative; left:20px; top:45px; border-radius:14px;}
+
+.redButton
+{width:16px; height:16px; background-color:#DB3D2B; border-radius:8px; position:relative; top:6px; left:6px;}
+
+#legendTextContainer
+{left:22px; display:inline-block;position:absolute; top:23px; color:#ffffff;font-family: var(--fuentePrincipal); font-size:10pt;text-align:center;}
+
+.legendText
+{display:inline-block;width:20px; padding-bottom:33px; cursor:default; user-select: none;}
+
+#message
+{border:1px solid #cccccc; display:inline-block; padding:4px; margin-top: 6px; font-family:var(--fuentePrincipal); font-size:10pt;}

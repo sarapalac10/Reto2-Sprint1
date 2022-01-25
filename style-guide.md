@@ -38,49 +38,49 @@ El diseño fue creado con las siguientes dimensiones:
 
 #### Fondos (Backgrounds)
 
-- Light gray (main background): hsl(0, 0%, 90%)
-- Grayish red (toggle background, keypad background): hsl(0, 5%, 81%)
-- Very light gray (screen background): hsl(0, 0%, 93%)
+- Light gray (main background): hsl(0, 0%, 90%) - #e6e6e6
+- Grayish red (toggle background, keypad background): hsl(0, 5%, 81%) - #d1cccc
+- Very light gray (screen background): hsl(0, 0%, 93%) - #ededed
 
 #### Llaves (Keys)
 
-- Dark moderate cyan (key background): hsl(185, 42%, 37%)
-- Very dark cyan (key shadow): hsl(185, 58%, 25%)
+- Dark moderate cyan (key background): hsl(185, 42%, 37%) - #377f86
+- Very dark cyan (key shadow): hsl(185, 58%, 25%) - #1b5f65
 
-- Orange (key background, toggle): hsl(25, 98%, 40%)
-- Dark orange (key shadow): hsl(25, 99%, 27%)
+- Orange (key background, toggle): hsl(25, 98%, 40%) - #ca5502
+- Dark orange (key shadow): hsl(25, 99%, 27%) - #893901
 
-- Light grayish yellow (key background): hsl(45, 7%, 89%)
-- Dark grayish orange (key shadow): hsl(35, 11%, 61%)
+- Light grayish yellow (key background): hsl(45, 7%, 89%) - #e5e4e1
+- Dark grayish orange (key shadow): hsl(35, 11%, 61%) - #a69d91 
 
 #### Texto (Text)
 
-- Very dark grayish yellow: hsl(60, 10%, 19%)
-- White (text): hsl(0, 0, 100%)
+- Very dark grayish yellow: hsl(60, 10%, 19%) - #35352c
+- White (text): hsl(0, 0, 100%) - #fff
 
 ### Tema 3
 
 #### Fondos (Backgrounds)
 
-- Very dark violet (main background): hsl(268, 75%, 9%)
-- Very dark violet (toggle background, keypad background, screen background): hsl(268, 71%, 12%)
+- Very dark violet (main background): hsl(268, 75%, 9%) - #160628 
+- Very dark violet (toggle background, keypad background, screen background): hsl(268, 71%, 12%) - #1d0934
 
 #### Llaves (Keys)
 
-- Dark violet (key background): hsl(281, 89%, 26%)
-- Vivid magenta (key shadow): hsl(285, 91%, 52%)
+- Dark violet (key background): hsl(281, 89%, 26%) - #58077d
+- Vivid magenta (key shadow): hsl(285, 91%, 52%) - #bc15f4
 
-- Pure cyan (key background, toggle): hsl(176, 100%, 44%)
-- Soft cyan (key shadow): hsl(177, 92%, 70%)
+- Pure cyan (key background, toggle): hsl(176, 100%, 44%) - #00e0d1
+- Soft cyan (key shadow): hsl(177, 92%, 70%) - #6cf9f2
 
-- Very dark violet (key background): hsl(268, 47%, 21%)
-- Dark magenta (key shadow): hsl(290, 70%, 36%)
+- Very dark violet (key background): hsl(268, 47%, 21%) - #341c4f
+- Dark magenta (key shadow): hsl(290, 70%, 36%) - #871c9c
 
 #### Texto (Text)
 
-- Light yellow: hsl(52, 100%, 62%)
-- Very dark blue: hsl(198, 20%, 13%)
-- White (text): hsl(0, 0, 100%)
+- Light yellow: hsl(52, 100%, 62%) - #ffe53d
+- Very dark blue: hsl(198, 20%, 13%) - #1b2428
+- White (text): hsl(0, 0, 100%) - - #fff
 
 ## Tipografía
 
