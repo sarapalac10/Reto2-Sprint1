@@ -38,32 +38,21 @@ body{
     background-color: #3a4764;
 }
 
-.screen{
-    background-color: hsl(224, 36%, 15%);
-    border-radius: 10px;
-    padding: 15px;
-    color: #ffffff;
-    height: 100%;
-}
-
 .content-body {
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 95%;
 }
 
-@media (min-width: 375px) {
-    .content-body {
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-        width: 45%;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.screen{
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+    height: 100%;
 }
 
 .content-calculator {
@@ -73,8 +62,20 @@ body{
     padding: 20px 15px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 95%;
+    gap: 10px;
+    margin-left: 0;
+}
+
+
+@media (min-width: 375px) {
+    .content-body {
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        width:max-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .operador{
