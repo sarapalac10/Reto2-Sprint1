@@ -14,25 +14,25 @@ El diseño fue creado con las siguientes dimensiones:
 
 #### Fondos (Backgrounds)
 
-- Very dark desaturated blue (main background): hsl(222, 26%, 31%)
-- Very dark desaturated blue (toggle background, keypad background): hsl(223, 31%, 20%)
-- Very dark desaturated blue (screen background): hsl(224, 36%, 15%)
+- Very dark desaturated blue (main background): hsl(222, 26%, 31%) - #3a4764
+- Very dark desaturated blue (toggle background, keypad background): hsl(223, 31%, 20%) - #232c43
+- Very dark desaturated blue (screen background): hsl(224, 36%, 15%) - #182034
 
 #### Llaves (Keys)
 
-- Desaturated dark blue (key background): hsl(225, 21%, 49%)
-- Desaturated dark blue (key shadow): hsl(224, 28%, 35%)
+- Desaturated dark blue (key background): hsl(225, 21%, 49%) -  #637097
+- Desaturated dark blue (key shadow): hsl(224, 28%, 35%) - #404e72
 
-- Red (key background, toggle): hsl(6, 63%, 50%)
-- Dark red (key shadow): hsl(6, 70%, 34%)
+- Red (key background, toggle): hsl(6, 63%, 50%) - #d03f2f
+- Dark red (key shadow): hsl(6, 70%, 34%) - #93261a
 
-- Light grayish orange (key background): hsl(30, 25%, 89%)
-- Grayish orange (key shadow): hsl(28, 16%, 65%)
+- Light grayish orange (key background): hsl(30, 25%, 89%) - #eae3dc
+- Grayish orange (key shadow): hsl(28, 16%, 65%) - #b4a597 
 
 #### Texto (Text)
 
-- Very dark grayish blue: hsl(221, 14%, 31%)
-- White: hsl(0, 0, 100%)
+- Very dark grayish blue: hsl(221, 14%, 31%) - #444b5a
+- White: hsl(0, 0, 100%) - #fff
 
 ### Tema 2
 

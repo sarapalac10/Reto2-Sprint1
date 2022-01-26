@@ -30,6 +30,7 @@ html {
     margin: auto;
     width: 60%;
     font-size: 20px;
+    margin-top: 2.5rem;
 }
 
 body{
@@ -49,9 +50,9 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
-    width: 45%;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
 }
 
 @media (min-width: 375px) {
@@ -73,9 +74,11 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    width: 95%;
 }
 
 .operador{
+    border: none;
     width: 100%;
     border-radius: 10px;
     outline: none;
